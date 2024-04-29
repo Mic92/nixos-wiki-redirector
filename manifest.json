@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "NixOS Wiki Redirect",
+  "version": "1.0",
+  "description": "Redirects nixos.wiki to wiki.nixos.org",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://nixos.wiki/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
