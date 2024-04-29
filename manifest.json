@@ -8,6 +8,12 @@
     "webRequestBlocking",
     "*://nixos.wiki/*"
   ],
+  "applications": {
+    "gecko": {
+      "id": "joerg@thalheim.io",
+      "strict_min_version": "1.2.3"
+    }
+  },
   "background": {
     "scripts": ["background.js"]
   }
