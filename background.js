@@ -5,7 +5,7 @@ browser.webRequest.onBeforeRequest.addListener(
     };
   },
   {
-    urls: ["*://nixos.wiki/*"],
+    urls: ["*://wiki.nixos.org/*"],
     types: ["main_frame"]
   },
   ["blocking"]

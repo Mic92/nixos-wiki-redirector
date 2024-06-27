@@ -2,11 +2,11 @@
   "manifest_version": 2,
   "name": "NixOS Wiki Redirect",
   "version": "1.0",
-  "description": "Redirects nixos.wiki to wiki.nixos.org",
+  "description": "Redirects wiki.nixos.org to wiki.nixos.org",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://nixos.wiki/*"
+    "*://wiki.nixos.org/*"
   ],
   "applications": {
     "gecko": {
